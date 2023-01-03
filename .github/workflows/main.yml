@@ -9,8 +9,6 @@ jobs:
     steps:
       with: 
         version: ${{ matrix.version }}
-      - name: hello
-        run: echo "hello"
-      - run: echo "world"
+      - run: echo "hello"
 
     
