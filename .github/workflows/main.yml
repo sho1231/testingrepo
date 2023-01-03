@@ -8,7 +8,7 @@ jobs:
         version: [8,10,11]
     steps:
       with: 
-        version: ${{matrix.version}}
+        version: ${{ matrix.version }}
       - name: hello
         run: echo "hello"
       - run: echo "world"
