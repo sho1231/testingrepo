@@ -2,12 +2,9 @@ name: Testing
 on: [push]
 jobs:
   testworkflow:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [windows]
-        version: [8,10,11]
+    runs-on: windows-latest
     steps:
-    - run: echo "hello"
+    - run: color a
+    - run: echo "hello world"
 
     
