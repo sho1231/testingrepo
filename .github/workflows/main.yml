@@ -1,5 +1,5 @@
-name:first Work flow
-on:[push]
+name: first Work flow
+on: [push]
 jobs:
   test:
     runs-on:ubuntu-latest
