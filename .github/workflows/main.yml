@@ -4,7 +4,6 @@ jobs:
   testworkflow:
     runs-on: windows-latest
     steps:
-    - run: color a
     - run: echo "hello world"
 
     
