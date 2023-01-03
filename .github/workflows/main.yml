@@ -2,7 +2,7 @@ name: Testing
 on: [push]
 jobs:
   testworkflow:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       - name: hello
         run: echo "hello"
