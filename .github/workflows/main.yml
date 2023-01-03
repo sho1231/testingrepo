@@ -1,7 +1,7 @@
 name: first Work flow
 on: [push]
 jobs:
-  test:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
       -run: echo "hello"
