@@ -2,7 +2,7 @@ name: first Work flow
 on: [push]
 jobs:
   test:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       -run:echo "hello"
       -run:echo "world"
