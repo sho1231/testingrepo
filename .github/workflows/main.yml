@@ -3,7 +3,12 @@ on: [push]
 jobs:
   testworkflow:
     runs-on: windows-latest
+    strategy:
+      matrix:
+        version: [8,10,11]
     steps:
+      with: 
+        version: ${{matrix.version}}
       - name: hello
         run: echo "hello"
       - run: echo "world"
